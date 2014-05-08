@@ -28,4 +28,7 @@ class GaussianRational:
         <0 + 0i>
         """
         return Gauss(self.a * right.a - self.b * right.b, self.a * right.b + self.b * right.a)
+    
+    def hello(self):
+        This is a buggy function, not python syntax (although close)
 
